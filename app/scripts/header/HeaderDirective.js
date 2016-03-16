@@ -1,7 +1,6 @@
 angular
     .module('portoApp')
     .directive('pageHeader', [function (
-
     ) {
         return {
             restrict: 'E',
