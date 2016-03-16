@@ -3,11 +3,14 @@
   margin: 0;
 }
 
-.header {
-  background-image: url('../images/tilleman_20120506-0051-panorama-copy.jpg');
-  background-size: 50% 100%;
+.header-image {
+  background-image: url('../images/header1.jpg');
+  background-size: 100% 100%;
   background-repeat: no-repeat;
-  min-height: 400px;
+}
+
+.sub-header {
+  min-height: 300px;
 }
 
 .header-name {
@@ -18,4 +21,13 @@
   h2 {
     font-size: 1.5rem;
   }
+}
+
+.toolbar {
+  min-height: 75px;
+}
+
+.toolbar-header {
+  font-size: 1.2rem;
+  font-weight: bold;
 }
